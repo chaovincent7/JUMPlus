@@ -5,6 +5,17 @@ public class Account {
 	private String password;
 	private int reviews;
 	
+	public Account() {
+		
+	}
+	
+	public Account(String email, String password, int reviews) {
+		super();
+		this.email = email;
+		this.password = password;
+		this.reviews = reviews;
+	}
+	
 	public String getEmail() {
 		return email;
 	}
